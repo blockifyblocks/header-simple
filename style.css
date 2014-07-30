@@ -1,0 +1,86 @@
+.header-simple {
+  background: #333;
+  height: 64px;
+  line-height: 64px;
+  color: #fff;
+}
+.header-simple .navbar-toggle {
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+}
+.header-simple .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 28px;
+  height: 6px;
+}
+.header-simple .logo,
+.header-simple .logo:hover {
+  float: left;
+  margin-right: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  max-height: 64px;
+}
+.header-simple .logo img,
+.header-simple .logo:hover img {
+  max-height: 64px;
+  width: auto;
+}
+.header-simple .description {
+  float: left;
+  color: #999;
+}
+.header-simple nav {
+  box-shadow: none;
+}
+.header-simple nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-simple nav ul > li {
+  float: left;
+  margin-left: 0;
+}
+.header-simple nav ul > li > a {
+  color: #ccc;
+}
+.header-simple nav ul > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.header-simple nav ul > li > a.btn {
+  display: block;
+  margin: 16px 0 0 0;
+  border: none;
+}
+.header-simple nav ul > li > a.btn-default {
+  background: #8E44AD;
+  margin-left: 15px;
+  color: #fff;
+}
+.header-simple nav.in,
+.header-simple nav.collapsing {
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  z-index: 9999;
+  background: #222;
+}
+.header-simple nav.in ul,
+.header-simple nav.collapsing ul {
+  width: 100%;
+}
+.header-simple nav.in ul li,
+.header-simple nav.collapsing ul li {
+  margin-left: 0;
+  width: 100%;
+}
+.header-simple nav.in ul li > a,
+.header-simple nav.collapsing ul li > a {
+  display: block;
+  line-height: 48px;
+}
